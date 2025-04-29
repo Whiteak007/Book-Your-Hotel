@@ -1,0 +1,20 @@
+/* Media query for mobile devices (up to 576px width) */
+@media (max-width: 576px) {
+    .margin {
+        margin-top: 150px;
+    }
+    .fixer{
+        height: 130vh;
+    }
+}
+
+/* Media query for tablet devices (min-width: 577px and max-width: 992px) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .margin {
+        margin-top: 250px;
+        /* Adjust margin for tablets as needed */
+    }
+    .fixer{
+        height: 150vh;
+    }
+}
